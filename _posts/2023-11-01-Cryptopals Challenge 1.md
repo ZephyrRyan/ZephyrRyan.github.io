@@ -1,12 +1,12 @@
 ---
-title: Challenge 1 Convert hex to base64
-date: 2023-11-06 20:58:39 +0800
+title: Cryptopals Challenge1
+date: 2023-11-01 20:58:39 +0800
 categories: [Cryptopals, Set1]
 tags: [Cryptography]     # TAG 名称应始终小写
 ---
 
 
-### Challenge 1 Convert hex to base64
+### Convert hex to base64
 
 The string:
 
