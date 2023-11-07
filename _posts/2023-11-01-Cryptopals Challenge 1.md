@@ -5,7 +5,8 @@ categories:
   - Cryptopals
   - Set1
 tags:
-  - Cryptography
+  - cryptography
+  - cryptopals
 ---
 
 ## 题目

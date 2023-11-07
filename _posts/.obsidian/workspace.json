@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:Cryptography",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -156,9 +157,9 @@
   },
   "active": "12d482789404c8b9",
   "lastOpenFiles": [
-    "Template/Cryptopals Template.md",
     "2023-11-01-Cryptopals Challenge 1.md",
     "2023-11-02-Cryptopals Challenge 2.md",
+    "Template/Cryptopals Template.md",
     "Template",
     "Cryptography/Cryptopals/Set1/2023-11-07-Cryptopals Challenge 4.md",
     "Cryptography/Cryptopals/Set1/2023-11-07-Cryptopals Challenge 2.md",
