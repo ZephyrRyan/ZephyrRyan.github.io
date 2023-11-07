@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "84eba0dcb4b6b7c7",
+    "type": "split",
+    "children": [
+      {
+        "id": "b1cb76afc92fd150",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "983f476671b2fcf4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cryptopals/Set1/2023-11-07-Cryptopals Challenge 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "605bea04f928b752",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "1d7d62b1714ccba5",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "a676ba264a67e2bb",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "cb0fc94b2d189182",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "ce5a0673ec169413",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "690b2fa82722f297",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "5e01cfb1824291a1",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Cryptopals/Set1/2023-11-07-Cryptopals Challenge 2.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "5177a20e5cadb23d",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Cryptopals/Set1/2023-11-07-Cryptopals Challenge 2.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "af6cea3bc187a943",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Cryptopals/Set1/2023-11-07-Cryptopals Challenge 2.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "1d7d62b1714ccba5",
+  "lastOpenFiles": [
+    "Cryptopals/Set1/2023-11-07-Cryptopals Challenge 2.md",
+    "Cryptopals/Set1/2023-11-01-Cryptopals Challenge 1.md",
+    "Cryptopals/Set1/2023-11-07-Cryptopals Challenge 3.md",
+    "Cryptopals/Template/Cryptopals Template.md",
+    "Cryptopals/Template",
+    "Cryptopals/Set1",
+    "Cryptopals"
+  ]
+}
