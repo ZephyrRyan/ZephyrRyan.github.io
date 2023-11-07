@@ -8,9 +8,9 @@ tags:
   - Cryptography
 ---
 
-# 题目
+## 题目
 ### Convert hex to base64
-
+![题目.png](https://note-for-zephyrryan.oss-cn-beijing.aliyuncs.com/obsidian_picture/QQ%E6%88%AA%E5%9B%BE20231107223925.png)
 The string:
 
 ```
@@ -27,22 +27,22 @@ So go ahead and make that happen. You'll need to use this code for the rest of t
 
 
 > Always operate on raw bytes, never on encoded strings. Only use hex and base 64 for pretty-printing.
-> {: .prompt-tip }
 
-![题目.png](https://note-for-zephyrryan.oss-cn-beijing.aliyuncs.com/obsidian_picture/QQ%E6%88%AA%E5%9B%BE20231107223925.png)
+{: .prompt-tip }
 
-# 解析
-## 知识点
+## 解析
+### 知识点
 
 - Base64是一种将**二进制数据**编码成文本数据，以便在文本环境中进行传输和存储。
   - 基于64个字符表示二进制数据，因而得名“Base64”.
   - **常见用途：** Base64 编码常用于电子邮件传输（如将二进制附件编码为文本以在电子邮件中发送）、URL编码、数据传输和存储（例如在数据库中存储二进制数据），以及各种编程领域中的数据传输和处理。
-  - Base64 编码的工作原理是**将原始二进制数据拆分成6位的块，然后将这些块映射到Base64字符集中的字符**。通常，Base64字符集包括A到Z、a到z、0到9以及两个额外的字符，通常是"+"和"/"。等号("=")通常用于填充以确保Base64编码的字符串长度是4的倍数。
-## 分析
+  - Base 64 编码的工作原理是**将原始二进制数据拆分成 6 位的块，然后将这些块映射到 Base 64 字符集中的字符**。通常，Base 64 字符集包括 A 到 Z、a 到 z、0 到 9 以及两个额外的字符，通常是"+"和"/"。等号 ("=")通常用于填充以确保 Base 64 编码的字符串长度是 4 的倍数。
+
+### 分析
 > 只需要将 16 进制的字符串转换成二进制数据，然后使用 base64 编码即可得到结果。
 
-# 解决方案
-## 代码：
+## 解决方案
+### 代码：
 
 ```python
 import base64
@@ -59,7 +59,7 @@ print(base64_string == base64_string2)
 
 ```
 
-## 运行结果:
+### 运行结果:
 
 ```python
 True
