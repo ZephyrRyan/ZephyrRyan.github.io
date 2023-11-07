@@ -9,25 +9,26 @@ tags:
 ---
 
 ## 题目
-### Convert hex to base64
+
 ![题目.png](https://note-for-zephyrryan.oss-cn-beijing.aliyuncs.com/obsidian_picture/QQ%E6%88%AA%E5%9B%BE20231107223925.png)
-The string:
+### 将十六进制转换为Base64
+16 进制字符串:
 
 ```
 49276d206b696c6c696e6720796f757220627261696e206c696b65206120706f69736f6e6f7573206d757368726f6f6d
 ```
 
-Should produce:
+要转换成为:
 
 ```
 SSdtIGtpbGxpbmcgeW91ciBicmFpbiBsaWtlIGEgcG9pc29ub3VzIG11c2hyb29t
 ```
 
-So go ahead and make that happen. You'll need to use this code for the rest of the exercises.
 
 
-> Always operate on raw bytes, never on encoded strings. Only use hex and base 64 for pretty-printing.
+> 在处理数据时，应该始终使用原始的字节数据，而不是已编码的字符串数据。只有在需要打印的时候，才需要 16 进制和 base64 编码。
 {: .prompt-tip }
+
 
 ## 解析
 ### 知识点
