@@ -27,7 +27,6 @@ So go ahead and make that happen. You'll need to use this code for the rest of t
 
 
 > Always operate on raw bytes, never on encoded strings. Only use hex and base 64 for pretty-printing.
-
 {: .prompt-tip }
 
 ## 解析
@@ -42,7 +41,7 @@ So go ahead and make that happen. You'll need to use this code for the rest of t
 > 只需要将 16 进制的字符串转换成二进制数据，然后使用 base64 编码即可得到结果。
 
 ## 解决方案
-### 代码：
+### 代码
 
 ```python
 import base64
@@ -59,7 +58,7 @@ print(base64_string == base64_string2)
 
 ```
 
-### 运行结果:
+### 运行结果
 
 ```python
 True
