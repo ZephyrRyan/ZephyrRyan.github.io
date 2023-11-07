@@ -26,7 +26,8 @@ SSdtIGtpbGxpbmcgeW91ciBicmFpbiBsaWtlIGEgcG9pc29ub3VzIG11c2hyb29t
 So go ahead and make that happen. You'll need to use this code for the rest of the exercises.
 
 
-> Always operate on raw bytes, never on encoded strings. Only use hex and base 64 for pretty-printing.{: .prompt-tip }
+> Always operate on raw bytes, never on encoded strings. Only use hex and base 64 for pretty-printing.
+> {: .prompt-tip }
 
 ![题目.png](https://note-for-zephyrryan.oss-cn-beijing.aliyuncs.com/obsidian_picture/QQ%E6%88%AA%E5%9B%BE20231107223925.png)
 
@@ -41,7 +42,6 @@ So go ahead and make that happen. You'll need to use this code for the rest of t
 > 只需要将 16 进制的字符串转换成二进制数据，然后使用 base64 编码即可得到结果。
 
 # 解决方案
-
 ## 代码：
 
 ```python
