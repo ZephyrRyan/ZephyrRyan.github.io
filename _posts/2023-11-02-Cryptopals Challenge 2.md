@@ -1,6 +1,6 @@
 ---
 title: Cryptopals Challenge 2
-date: 2023-11-02 23:38:02 +0800
+date: 2023-11-02 08:38:02 +0800
 categories:
   - Cryptopals
   - Set1
