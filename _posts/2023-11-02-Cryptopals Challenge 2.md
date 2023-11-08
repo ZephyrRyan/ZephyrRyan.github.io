@@ -60,7 +60,7 @@ byte_seq2 = bytes.fromhex(hex_string2)
   
   
 def xor_bytes(seq1, seq2):  
-    # zip(seq1, seq2)将各个比特对应，然后for循环进行每个比特的异或  
+    # zip(seq1, seq2)将各个比特对应，然后for循环进行逐字节的异或  
     ciphertext = b''.join([bytes(b1 ^ b2 for b1, b2 in zip(seq1, seq2))])  
     return ciphertext  
   
