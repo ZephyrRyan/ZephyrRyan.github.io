@@ -1,6 +1,6 @@
 ---
 title: Cryptopals Challenge 5
-date: 2023-11-08 8:22:20 +0800
+date: 2023-11-03 8:22:20 +0800
 categories:
   - Cryptopals
   - Set1
@@ -73,4 +73,4 @@ True
 
 [Set 1: Pwn the world. — A noob's attempt at blogging.](https://hexterisk.github.io/blog/posts/2020/04/20/set-1/)
 
-[Fetching Title #3e8q ]( https://blank-vax.github.io/2019/11/13/Cryptopals%E8%A7%A3%E9%A2%98%E6%8A%A5%E5%91%8A (%E4%B8%80)/)
+[Cryptopals解题报告(一) | B1ank](https://blank-vax.github.io/2019/11/13/Cryptopals%E8%A7%A3%E9%A2%98%E6%8A%A5%E5%91%8A(%E4%B8%80)/)
