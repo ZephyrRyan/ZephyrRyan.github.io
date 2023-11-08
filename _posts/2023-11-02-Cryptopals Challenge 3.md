@@ -131,3 +131,9 @@ main()
 Cooking MC's like a pound of bacon
 88
 ```
+
+## 参考
+[Deciphering Single-byte XOR Ciphertext | Codementor](https://www.codementor.io/@arpitbhayani/deciphering-single-byte-xor-ciphertext-17mtwlzh30)
+[Fetching Title #ca7d ]( https://blank-vax.github.io/2019/11/13/Cryptopals%E8%A7%A3%E9%A2%98%E6%8A%A5%E5%91%8A (%E4%B8%80)/)
+[Set 1: Pwn the world. — A noob's attempt at blogging.](https://hexterisk.github.io/blog/posts/2020/04/20/set-1/)
+[Letter frequency - Wikipedia](https://en.wikipedia.org/wiki/Letter_frequency)
