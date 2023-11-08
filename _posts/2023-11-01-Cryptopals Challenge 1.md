@@ -40,7 +40,7 @@ SSdtIGtpbGxpbmcgeW91ciBicmFpbiBsaWtlIGEgcG9pc29ub3VzIG11c2hyb29t
   - Base 64 编码的工作原理是**将原始二进制数据拆分成 6 位的块，然后将这些块映射到 Base 64 字符集中的字符**。通常，Base 64 字符集包括 A 到 Z、a 到 z、0 到 9 以及两个额外的字符，通常是"+"和"/"。等号 ("=")通常用于填充以确保 Base 64 编码的字符串长度是 4 的倍数。
 
 ### 分析
-> 只需要将 16 进制的字符串转换成二进制数据，然后使用 base64 编码即可得到结果。
+> 只需要将 16 进制的字符串转换成字节序列，然后使用 base64 编码即可得到结果。
 
 ## 解决方案
 ### 代码
@@ -53,8 +53,8 @@ base64_string = "SSdtIGtpbGxpbmcgeW91ciBicmFpbiBsaWtlIGEgcG9pc29ub3VzIG11c2hyb29
 
 # 将hex转换成bytes
 bit_string = bytes.fromhex(hex_string)
-# 将转换成的bytes进行Base64编码，再用“utf-8”解码，便于比较是否转换正确
-base64_string2 = base64.b64encode(bit_string).decode('utf-8')
+# 将转换成的bytes进行Base64编码，再用“ACSII”解码，便于比较是否转换正确
+base64_string2 = base64.b64encode(bit_string).decode('ACSII')
 
 print(base64_string == base64_string2)
 
