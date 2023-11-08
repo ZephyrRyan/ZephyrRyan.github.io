@@ -38,6 +38,8 @@ tags: [cryptography, cryptopals]
 
 ### 运行结果
 
-```python
+```
 
 ```
+
+## 参考
