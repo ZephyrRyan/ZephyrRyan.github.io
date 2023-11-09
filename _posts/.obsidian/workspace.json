@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "264a963338ebfcd1",
+        "id": "c115a8efc89816e1",
         "type": "tabs",
         "children": [
           {
-            "id": "18845e5e1b0c20c0",
+            "id": "373da192643a26c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-11-02-Cryptopals Challenge 3.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "358634978ec065cf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Template/Cryptopals Template.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "5fc9653a61b3c30a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-11-02-Cryptopals Challenge 3.md",
+                "file": "2023-11-03-Cryptopals Challenge 6.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-11-02-Cryptopals Challenge 3.md",
+                "file": "2023-11-03-Cryptopals Challenge 6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023-11-02-Cryptopals Challenge 3.md",
+                "file": "2023-11-03-Cryptopals Challenge 6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023-11-02-Cryptopals Challenge 3.md"
+                "file": "2023-11-03-Cryptopals Challenge 6.md"
               }
             }
           },
@@ -179,13 +154,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5fc9653a61b3c30a",
+  "active": "373da192643a26c8",
   "lastOpenFiles": [
-    "2023-11-02-Cryptopals Challenge 2.md",
     "2023-11-02-Cryptopals Challenge 3.md",
-    "2023-11-02-Cryptopals Challenge 4.md",
     "2023-11-03-Cryptopals Challenge 5.md",
     "Template/Cryptopals Template.md",
+    "2023-11-03-Cryptopals Challenge 6.md",
+    "2023-11-02-Cryptopals Challenge 4.md",
+    "2023-11-02-Cryptopals Challenge 2.md",
     "2023-11-01-Cryptopals Challenge 1.md",
     "Template",
     "Cryptography/Cryptopals/Set1/2023-11-07-Cryptopals Challenge 4.md",
@@ -219,7 +195,6 @@
     "Notion/Class Dashboard/Courses/现代密码学/Notes/Chapter 4- Integrations.md",
     "Notion/Class Dashboard/Courses/现代密码学/Notes/Chapter 3- Applications of Derivatives.md",
     "Notion/Class Dashboard/Courses/现代密码学/Notes/Chapter 1- 绪论.md",
-    "Notion/Class Dashboard/Courses/漏洞利用及渗透测试基础/Notes/Chapter 1-绪论.md",
     "Notion/Class Dashboard/Debate club/Finance & sponsorships/Email Templates/Administrative Asks/Successful Emails",
     "Notion/Class Dashboard/Debate club/Finance & sponsorships/Email Templates/Administrative Asks/Unsuccessful Emails",
     "Notion/Class Dashboard/Debate club/Finance & sponsorships/Email Templates/Administrative Asks",
