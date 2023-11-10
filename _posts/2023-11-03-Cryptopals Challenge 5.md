@@ -11,6 +11,7 @@ tags:
 
 ## 题目
 
+[Challenge 5 Set 1 - The Cryptopals Crypto Challenges](https://cryptopals.com/sets/1/challenges/5)
 ![image.png](https://note-for-zephyrryan.oss-cn-beijing.aliyuncs.com/obsidian_picture/202311081822506.png)
 ### 重复密钥 XOR 加密
 给定字符串

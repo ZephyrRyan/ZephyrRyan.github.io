@@ -11,6 +11,7 @@ tags:
 
 ## 题目
 
+[Challenge 4 Set 1 - The Cryptopals Crypto Challenges](https://cryptopals.com/sets/1/challenges/4)
 ![image.png](https://note-for-zephyrryan.oss-cn-beijing.aliyuncs.com/obsidian_picture/202311081802901.png)
 
 ### 检测单字节异或
@@ -100,7 +101,7 @@ print(plaintext)
 
 ### 运行结果
 
-```python
+```
 Now that the party is jumping
 ```
 

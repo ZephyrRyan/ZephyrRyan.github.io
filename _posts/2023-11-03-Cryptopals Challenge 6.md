@@ -11,6 +11,7 @@ tags:
 
 ## 题目
 
+[Challenge 6 Set 1 - The Cryptopals Crypto Challenges](https://cryptopals.com/sets/1/challenges/6)
 ![image.png](https://note-for-zephyrryan.oss-cn-beijing.aliyuncs.com/obsidian_picture/202311082005159.png)
 
 ### 攻击重复密钥 XOR 加密

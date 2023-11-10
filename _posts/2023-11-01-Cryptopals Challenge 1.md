@@ -11,6 +11,7 @@ tags:
 
 ## 题目
 
+[Challenge 1 Set 1 - The Cryptopals Crypto Challenges](https://cryptopals.com/sets/1/challenges/1)
 ![题目.png](https://note-for-zephyrryan.oss-cn-beijing.aliyuncs.com/obsidian_picture/QQ%E6%88%AA%E5%9B%BE20231107223925.png)
 ### 将十六进制转换为Base64
 16 进制字符串:
@@ -62,7 +63,7 @@ print(base64_string == base64_string2)
 
 ### 运行结果
 
-```python
+```
 True
 ```
 

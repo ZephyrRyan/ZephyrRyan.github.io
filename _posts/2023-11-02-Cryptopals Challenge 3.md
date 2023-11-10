@@ -11,6 +11,7 @@ tags:
 
 ## 题目
 
+[Challenge 3 Set 1 - The Cryptopals Crypto Challenges](https://cryptopals.com/sets/1/challenges/3)
 ![image.png](https://note-for-zephyrryan.oss-cn-beijing.aliyuncs.com/obsidian_picture/202311081037705.png)
 
 ### 单字节 XOR 加密
@@ -127,7 +128,7 @@ main()
 
 ### 运行结果
 
-```python
+```
 Cooking MC's like a pound of bacon
 88
 ```

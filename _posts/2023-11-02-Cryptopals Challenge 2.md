@@ -10,6 +10,8 @@ tags:
 ---
 
 ## 题目
+
+[Challenge 2 Set 1 - The Cryptopals Crypto Challenges](https://cryptopals.com/sets/1/challenges/2)
 ![题目.png](https://note-for-zephyrryan.oss-cn-beijing.aliyuncs.com/obsidian_picture/%E9%A2%98%E7%9B%AE.png)
 
 ### 固定异或
@@ -77,7 +79,7 @@ print(result == target_string)
 {: .prompt-info }
 ### 运行结果
 
-```python
+```
 True
 ```
 
