@@ -4,5 +4,6 @@
   "cssTheme": "",
   "monospaceFontFamily": "Azeret Mono",
   "textFontFamily": "Azeret Mono",
-  "interfaceFontFamily": ""
+  "interfaceFontFamily": "",
+  "baseFontSize": 19
 }
