@@ -1,5 +1,5 @@
 ---
-title: MT3C Level 2
+title: MT3C Cracking Sha1-Hashed passwords
 date: 2023-11-04 11:30:41 +0800
 categories:
   - MT3C
