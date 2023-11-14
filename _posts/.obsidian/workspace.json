@@ -4,31 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "2cd3f6008d7a796a",
+        "id": "18f22fccdefe256e",
         "type": "tabs",
         "children": [
           {
-            "id": "bec8e785462de264",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "b384636edb8d47f1",
+            "id": "c9e12b15292cb7b8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-11-04-MT3C-cracking sha1 hashed passwords.md",
+                "file": "2023-10-31-DanBoneh's Cryptography Week 1.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "1e77a53914c520f7",
@@ -94,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-11-04-MT3C-cracking sha1 hashed passwords.md",
+                "file": "2023-10-31-DanBoneh's Cryptography Week 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023-11-04-MT3C-cracking sha1 hashed passwords.md",
+                "file": "2023-10-31-DanBoneh's Cryptography Week 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023-11-04-MT3C-cracking sha1 hashed passwords.md"
+                "file": "2023-10-31-DanBoneh's Cryptography Week 1.md"
               }
             }
           },
@@ -147,11 +138,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 360.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -160,21 +151,34 @@
       "templates:插入模板": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-importer:Open Importer": false
     }
   },
-  "active": "b384636edb8d47f1",
+  "active": "c9e12b15292cb7b8",
   "lastOpenFiles": [
+    "2023-10-31-Vigenere-like cipher.md",
+    "2023-10-31-DanBoneh's Cryptography Week 1.md",
+    "2023-11-04-MT3C-cracking sha1 hashed passwords.md",
+    "2023-11-03-Cryptopals Challenge 6.md",
+    "2023-11-03-Cryptopals Challenge 5.md",
     "2023-11-02-Cryptopals Challenge 4.md",
     "2023-11-02-Cryptopals Challenge 3.md",
     "2023-11-02-Cryptopals Challenge 2.md",
     "2023-11-01-Cryptopals Challenge 1.md",
-    "2023-11-04-MT3C-cracking sha1 hashed passwords.md",
-    "2023-10-31-Vigenere-like cipher.md",
-    "2023-10-31-DanBoneh's Cryptography Week1.md",
+    "2023-11-06-MT3C-AES key.md",
+    "2023-11-05-Cryptopals Challenge 10.md",
+    "2023-11-05-Cryptopals Challenge 9.md",
     "Template/MT3C Template.md",
-    "2023-11-03-Cryptopals Challenge 6.md",
-    "2023-11-03-Cryptopals Challenge 5.md",
+    "%E5%91%BC%E5%92%8C%E6%B5%A9%E7%89%B9.jpg",
+    "20201106235115787.webp",
+    "mtc3-hick-01-BAC-en.pdf",
+    "20201107162102301.webp",
+    "20201106235211834.webp",
+    "20201107001019751.webp",
+    "Notion/AES key — encoded in the machine readable zone of a European ePassport/AES key — encoded in the machine readable zone of a European ePassport.md",
+    "Notion/AES key — encoded in the machine readable zone of a European ePassport",
+    "Notion",
     "Template/Cryptopals Template.md",
     "Template/Cryptography Generic template.md",
     "Template/DanBoneh's Cryptograph template.md",
@@ -189,28 +193,16 @@
     "Issues/2023-6-8.md",
     "Issues/2023-6-7.md",
     "Issues/2023-6-5.md",
-    "Issues/2023-5-22.md",
-    "Issues/2023-5-20.md",
-    "Issues/2023-5-17.md",
-    "Issues/2023-5-16.md",
     "14.jpg",
     "%E6%B3%B0%E5%B1%B1%E6%94%BB%E7%95%A5.png",
-    "%E5%91%BC%E5%92%8C%E6%B5%A9%E7%89%B9.jpg",
-    "20201106235211834.webp",
-    "20201106235115787.webp",
     "201-%E5%B7%B2%E5%A2%9E%E5%BC%BA-NR.jpg",
     "22swisher-articleLarge.jpg",
     "Image_from_iOS.png",
-    "IMG_2374.png",
-    "image_(2).png",
     "Chapter_1_(1).pdf",
-    "mtc3-hick-01-BAC-en.pdf",
     "Notion/Class Dashboard/Debate club/Finance & sponsorships/Email Templates/Administrative Asks/Successful Emails",
     "Notion/Class Dashboard/Debate club/Finance & sponsorships/Email Templates/Administrative Asks/Unsuccessful Emails",
     "Notion/Class Dashboard/Debate club/Finance & sponsorships/Email Templates/Administrative Asks",
     "Notion/Class Dashboard/Debate club/Finance & sponsorships/Finances/Spending History/2022 Finances",
-    "Notion/Class Dashboard/Debate club/Finance & sponsorships/Finances/Spending History",
-    "Notion/Class Dashboard/Music ensemble/Finance & sponsorships/Email Templates/Administrative Asks/Unsuccessful Emails",
     "未命名.canvas"
   ]
 }
