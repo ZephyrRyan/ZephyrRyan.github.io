@@ -164,34 +164,14 @@ ciphertexts = [
     "466d06ece998b7a2fb1d464fed2ced7641ddaa3cc31c9941cf110abbf409ed39598005b3399ccfafb61d0315fca0a314be138a9f32503bedac8067f03adbf3575c3b8edc9ba7f537530541ab0f9f3cd04ff50d66f1d559ba520e89a2cb2a83",  
     "32510ba9babebbbefd001547a810e67149caee11d945cd7fc81a05e9f85aac650e9052ba6a8cd8257bf14d13e6f0a803b54fde9e77472dbff89d71b57bddef121336cb85ccb8f3315f4b52e301d16e9f52f904",  
 ]  
-  
-  
-#字节序列进行异或  
-def xor_bytes(seq1: bytes, seq2: bytes) -> bytes:  
-    # zip(seq1, seq2)将各个比特对应，然后for循环进行每个比特的异或  
+
+def xor_bytes(seq1: bytes, seq2: bytes) -> bytes:   
     return bytes(b1 ^ b2 for b1, b2 in zip(seq1, seq2))  
   
   
 key = [0] * 200  
-#我们后续需要调整这个空格数的阈值，得到最接近的答案。  
-#当阈值过高，则会导致本来确实为空格的字节被忽略，导致密钥不完整  
-#当阈值过低，则会导致本来不为空格的字节误认为是空格，导致密钥错误  
-#所有寻找一个能狗正确识别最大多数空格的阈值  
 space_threshold = 6  
 ciphertexts_length = len(ciphertexts)  
-"""  
-总体思路：  
-我们要解出明文，那么我们就需要知道密钥；  
-我们知道，a=b^c,则b=a^c，又ciphertext=key^plaintext 因而，当知道明文和密文,我们只需要将其异或，就可以得到密钥key；  
-根据提示，空格与字母的异或结果仍为字母；由此，当两个字符互相异或时，若结果为字母，那么这两个字符很有可能一个是空格，一个是字母；  
-我们不妨让一个密文与其他密文异或，若异或结果某个位置是字母，那么我们就在这个密文相应位置计数+1，  
-与其他10条密文异或之后，我们就可以得到这个位置可能是空格的次数，这就是上面阈值的设定；  
-多次一密，每个明文的对应位置的字节，密钥的字节是相同的，因而只需要选出明文中本是空格的密文，按原来的位置组合，将其与空格异或，就可以得到大致的密钥；  
-当遍历完十条密文之后，我们就可以得到许多明文是空格的密文的字节，把他们组合起来，与空格异或即可；  
-有了密钥只需要与密文异或，就得到了明文。  
-当然，密钥是猜测的，会有瑕疵，因而解出的明文会有少量错误，我们可以人工修正明文，再次与密文异或，便得到了正确的密钥。  
-由此，所有的密文我们就都可以破解了。  
-"""  
   
   
 for i in range(ciphertexts_length):  
@@ -204,10 +184,7 @@ for i in range(ciphertexts_length):
             continue  
         ciphertext2 = bytes.fromhex(ciphertexts[j])  
         xor_text = xor_bytes(ciphertext1, ciphertext2)  
-        '''  
-        不能用index获取位置，因为index获取的是第一个的位置！！！  
-        for letter in xor_text:            if letter.isalpha():                print(xor_text.index(letter))  
-                candidate_space[xor_text.index(letter)] += 1        '''        len_xor_text = len(xor_text)  
+		len_xor_text = len(xor_text)  
         for k in range(len_xor_text):  
             if xor_text[k: k + 1].isalpha() or xor_text[k: k + 1] == chr(0):  
                 candidate_space[k] += 1  
@@ -217,19 +194,10 @@ for i in range(ciphertexts_length):
             key[s] = ciphertext1[s] ^ ord(' ')  
   
 print("根据猜测的密钥求解的明文：", xor_bytes(key, bytes.fromhex(ciphertexts[10])).decode())  
-#输出  
-"""  
-Thm secuet message is: Whtn usi|g wsstream cipher, never use the key more than once  
-由于是猜测的，密钥可能并不完全正确，我们可以自主修正一下：  
-The secret message is: When using a stream cipher, never use the key more than once  
-"""  
   
-#我们根据修正了的第十一条明文，与第十一条密文再次异或，便得到了正确的密钥，由此，我们可以列出其他密文的明文。  
 plaintext = "The secret message is: When using a stream cipher, never use the key more than once"  
 correct_key = xor_bytes(plaintext.encode(), bytes.fromhex(ciphertexts[10]))  
 print("根据修正后的明文得到的正确密钥：", correct_key.hex())  
-#这是16进制的正确的密钥：  
-#66396e89c9dbd8cc9874352acd6395102eafce78aa7fed28a07f6bc98d29c50b69b0339a19f8aa401a9c6d708f80c066c763fef0123148cdd8e802d05ba98777335daefcecd59c433a6b268b60bf4ef03c9a61  
 for i in range(len(ciphertexts)):  
     print(f"明文 {i + 1}:", xor_bytes(correct_key, bytes.fromhex(ciphertexts[i])).decode())
 ```
