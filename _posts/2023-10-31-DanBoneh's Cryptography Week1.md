@@ -263,6 +263,3 @@ for i in range(len(ciphertexts)):
 [实验一 Many Time Pad - PeteLau - 博客园](https://www.cnblogs.com/jingqinglin/p/12843068.html)
 
 [密码学实验一：Many Time Pad（多次使用流密码）-CSDN博客](https://blog.csdn.net/qq_28786023/article/details/109016103)
-
-[现代密码学解题报告(一) | B1ank](https://blank-vax.github.io/2019/11/13/%E7%8E%B0%E4%BB%A3%E5%AF%86%E7%A0%81%E5%AD%A6%E8%A7%A3%E9%A2%98%E6%8A%A5%E5%91%8A%EF%BC%88%E4%B8%80%EF%BC%89/)
-
