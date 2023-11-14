@@ -223,6 +223,7 @@ Thm secuet message is: Whtn usi|g wsstream cipher, never use the key more than o
 The secret message is: When using a stream cipher, never use the key more than once  
 """
 
+
 # 我们根据修正了的第十一条明文，与第十一条密文再次异或，便得到了正确的密钥，由此，我们可以列出其他密文的明文。  
 plaintext = "The secret message is: When using a stream cipher, never use the key more than once"  
 correct_key = xor_bytes(plaintext.encode(), bytes.fromhex(ciphertexts[10]))  
