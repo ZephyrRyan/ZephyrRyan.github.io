@@ -20,24 +20,6 @@ tags:
     - 用不同长度的相同字节作为输入，推断出**密钥长度**。
     - 根据输出中是否有重复的块，判断是否使用了**ECB模式**。
     - 用一个比密钥长度少一个字节的输入，构建一个**字典**，找出未知字符串的**每个字节**。
-## 解析
-
-### 知识点
-- 
-
-### 分析
-> 
-{: .prompt-tip }
-
-> 
-{: .prompt-info }
-
-> 
-{: .prompt-warning }
-
-> 
-{: .prompt-danger }
-
 
 ## 解决方案
 
@@ -124,6 +106,13 @@ if __name__ == "__main__":
 ### 运行结果
 
 ```
+Block Size is 16
+Plaintext: 
+The unkonwn string is:
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I just drove by
 
 ```
 
